@@ -1,0 +1,25 @@
+{
+    "name": "ark-ui-file-upload-blob-repro",
+    "version": "0.0.0",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "build": "tsc --noEmit && vite build",
+        "dev": "vite"
+    },
+    "dependencies": {
+        "@ark-ui/react": "5.40.0",
+        "react": "18.3.1",
+        "react-dom": "18.3.1"
+    },
+    "devDependencies": {
+        "@types/react": "18.3.28",
+        "@types/react-dom": "18.3.7",
+        "@vitejs/plugin-react": "6.2.1",
+        "typescript": "6.0.3",
+        "vite": "8.3.5"
+    },
+    "engines": {
+        "node": "^20.19.0 || >=22.12.0"
+    }
+}
